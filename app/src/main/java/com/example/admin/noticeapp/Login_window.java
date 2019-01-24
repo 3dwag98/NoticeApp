@@ -1,0 +1,13 @@
+package com.example.admin.noticeapp;
+
+import android.support.v7.app.AppCompatActivity;
+import android.os.Bundle;
+
+public class Login_window extends AppCompatActivity {
+
+    @Override
+    protected void onCreate(Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+        setContentView(R.layout.activity_login_window);
+    }
+}

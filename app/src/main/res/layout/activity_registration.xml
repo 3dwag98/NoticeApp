@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".registration">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/gradient"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_marginBottom="5dp"
+        android:orientation="vertical"
+        android:layout_centerHorizontal="true">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Create Account"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:textColor="#ffff"
+            android:fontFamily="sans-serif"
+            android:textSize="18dp"
+            android:textStyle="bold"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Username"
+            android:layout_marginTop="30dp"
+            android:layout_marginLeft="70dp"
+            android:textColor="#ffff"/>
+        <EditText
+            android:layout_width="270dp"
+            android:layout_height="wrap_content"
+            android:hint="  Username"
+            android:drawableLeft="@drawable/ic_account_circle_black_24dp"
+            android:layout_marginLeft="70dp"
+            android:layout_marginTop="5dp"
+            android:background="@drawable/strokeforregitration"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=" First Name"
+            android:layout_marginTop="1dp"
+            android:layout_marginLeft="70dp"
+            android:textColor="#ffff"/>
+        <EditText
+            android:layout_width="270dp"
+            android:layout_height="wrap_content"
+            android:hint="  First Name "
+            android:drawableLeft="@drawable/ic_face_black_24dp"
+            android:layout_marginLeft="70dp"
+            android:layout_marginTop="5dp"
+            android:background="@drawable/strokeforregitration"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Last Name"
+            android:layout_marginTop="1dp"
+            android:layout_marginLeft="70dp"
+            android:textColor="#ffff"/>
+        <EditText
+            android:layout_width="270dp"
+            android:layout_height="wrap_content"
+            android:hint="  Last Name"
+            android:drawableLeft="@drawable/ic_face_black_24dp"
+            android:layout_marginLeft="70dp"
+            android:layout_marginTop="5dp"
+            android:background="@drawable/strokeforregitration"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Mobile"
+            android:layout_marginTop="1dp"
+            android:layout_marginLeft="70dp"
+            android:textColor="#ffff"/>
+        <EditText
+            android:layout_width="270dp"
+            android:layout_height="wrap_content"
+            android:hint="  Mobile"
+            android:drawableLeft="@drawable/phone"
+            android:layout_marginLeft="70dp"
+            android:layout_marginTop="5dp"
+            android:background="@drawable/strokeforregitration"
+            />
+        <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Class"
+        android:layout_marginTop="1dp"
+        android:layout_marginLeft="70dp"
+        android:textColor="#ffff"/>
+        <EditText
+        android:layout_width="270dp"
+        android:layout_height="wrap_content"
+        android:hint="  Class(eg.TYIT)"
+        android:drawableLeft="@drawable/ic_edit_black_24dp"
+        android:layout_marginLeft="70dp"
+        android:layout_marginTop="5dp"
+        android:background="@drawable/strokeforregitration" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Password"
+            android:layout_marginTop="1dp"
+            android:layout_marginLeft="70dp"
+            android:textColor="#ffff"/>
+        <EditText
+            android:layout_width="270dp"
+            android:layout_height="wrap_content"
+            android:hint="  Password"
+            android:drawableLeft="@drawable/ic_security_black_24dp"
+            android:layout_marginLeft="70dp"
+            android:layout_marginTop="5dp"
+            android:background="@drawable/strokeforregitration" />
+
+<TextView
+    android:layout_width="350dp"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="30dp"
+    android:layout_marginTop="8dp"
+    android:textColor="@color/white"
+    android:drawableLeft="@drawable/ic_warning_black_24dp"
+    android:text="   Make sure it's more than 15 characters OR
+   at least 8 characters including a number and a
+   lowercase letter."
+    />
+
+        <Button
+    android:layout_width="300dp"
+    android:layout_height="wrap_content"
+    android:text="Sign UP"
+    android:textStyle="bold"
+    android:background="@drawable/button"
+    android:layout_gravity="center"
+    android:layout_marginTop="20dp"
+    android:textSize="25dp"
+    android:textColor="#ffff"
+
+    />
+
+    </LinearLayout>
+
+
+</RelativeLayout>

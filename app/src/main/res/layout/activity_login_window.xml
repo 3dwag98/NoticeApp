@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Login_window"
+    android:background="@drawable/gradient">
+
+    <ImageView
+        android:layout_width="150dp"
+        android:layout_height="180dp"
+        android:background="@drawable/stroeonly"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+
+        android:layout_marginTop="70dp"
+        android:layout_marginBottom="350dp"
+        android:src="@drawable/sp"
+        android:contentDescription="TODO" />
+
+    <EditText
+        android:id="@+id/user"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:hint="  Enter Username"
+        android:layout_centerInParent="true"
+        android:drawableLeft="@drawable/username"
+        android:inputType="" />
+    <EditText
+        android:id="@+id/pass"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:hint="  Password"
+        android:layout_marginTop="14dp"
+        android:layout_below="@id/user"
+        android:layout_centerInParent="true"
+        android:drawableLeft="@drawable/ic_security_black_24dp" />
+
+    <Switch
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="false"
+        android:layout_marginLeft="360dp"
+        android:layout_marginTop="8dp"
+        android:shadowColor="@color/colorPrimaryDark" />
+    <CheckBox
+        android:id="@+id/checkbox"
+        android:layout_width="160dp"
+        android:layout_height="wrap_content"
+        android:text="Remember Me"
+        android:layout_below="@id/pass"
+        android:layout_marginTop="7dp"
+        android:layout_centerInParent="false"
+        android:textSize="17dp"
+        android:layout_marginLeft="79dp" />
+    <Button
+        android:id="@+id/loginbutton"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/loginbutton"
+        android:text="@string/login"
+        android:layout_below="@id/checkbox"
+        android:layout_marginTop="10dp"
+        android:fontFamily="sans-serif-smallcaps"
+        android:textSize="20sp"
+        android:layout_centerInParent="true"/>
+    <Button
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/signup"
+        android:text="@string/sign_up"
+        android:layout_below="@id/loginbutton"
+        android:layout_marginTop="10dp"
+        android:fontFamily="sans-serif-smallcaps"
+        android:textSize="20dp"
+        android:layout_centerInParent="true"/>
+</RelativeLayout>
